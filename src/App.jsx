@@ -1,7 +1,9 @@
 import React from "react";
-import Button from "./components/Button";
-import ProductItem from "./components/ProductItem";
+import ProductPage from "./pages/ProductPage";
 
+<<<<<<< HEAD
+const App = () => <ProductPage />;
+=======
 const fakeProduct = {
   id: "CACDA421",
   name: "해물 계란 라면",
@@ -33,5 +35,6 @@ const App = () => (
     </div>
   </div>
 );
+>>>>>>> 94c0df4446706b3f48b78cfcb4d8879a33dabb5e
 
 export default App;
